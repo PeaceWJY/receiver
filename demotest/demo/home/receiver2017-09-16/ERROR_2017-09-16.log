@@ -1,0 +1,4 @@
+2017-09-16 13:11:14.362 [kafka-producer-network-thread | producer-1] ERROR o.s.kafka.support.LoggingProducerListener - Exception thrown when sending a message with key='lalala' and payload='2017-09-16 13:10:43.865' to topic lalala and partition 0:
+org.apache.kafka.common.errors.TimeoutException: Expiring 1 record(s) for lalala-0: 30027 ms has passed since batch creation plus linger time
+2017-09-16 15:02:34.599 [kafka-producer-network-thread | producer-1] ERROR o.s.kafka.support.LoggingProducerListener - Exception thrown when sending a message with key='lalala' and payload='2017-09-16 15:02:04.454' to topic lalala and partition 0:
+org.apache.kafka.common.errors.TimeoutException: Expiring 1 record(s) for lalala-0: 30017 ms has passed since batch creation plus linger time
