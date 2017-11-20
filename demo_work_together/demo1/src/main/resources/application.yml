@@ -1,0 +1,12 @@
+server:
+  port: 3374
+spring:
+  kafka:
+    bootstrap-servers: 202.114.255.107:9092
+    consumer:
+      group-id: myGroup
+
+
+
+
+
